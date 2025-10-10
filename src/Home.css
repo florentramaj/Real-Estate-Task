@@ -1,0 +1,54 @@
+.subtext {
+  color: black;
+  margin-top: 0px;
+}
+.subtextP {
+  color: black;
+  margin-bottom: 100px;
+}
+
+.learn-more {
+  width: 1690px;
+  height: 560px;
+  margin-top: 40px;
+  background-color: darkblue;
+  position: absolute;
+}
+
+.img {
+  top: 150px;
+  right: 490px;
+  width: 400px;
+  height: 300px;
+  border-radius: 20px;
+  position: absolute;
+  margin-right: 660px;
+}
+
+.subtextP2 {
+  position: relative;
+  bottom: 35px;
+  left: 290px;
+}
+
+.subtext2 {
+  position: relative;
+  bottom: 20px;
+  left: 300px;
+}
+
+.learn-more-button {
+  background-color: blue;
+  border-color: black;
+  position: relative;
+  left: 200px;
+  width: 150px;
+  height: 40px;
+  border-radius: 5px;
+  color: white;
+}
+
+.consumer-feedbacks {
+  height: 300px;
+  background-color: darkblue;
+}

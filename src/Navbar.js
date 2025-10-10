@@ -15,7 +15,15 @@ function Navbar() {
       <ul className="nav-links">
         <li>
           <Link to="/">Home</Link>
+        </li>
+        <li>
           <Link to="/">Property</Link>
+        </li>
+        <li>
+          <Link to="/">About us</Link>
+        </li>
+        <li>
+          <Link to="/">Contact us</Link>
         </li>
       </ul>
     </nav>
