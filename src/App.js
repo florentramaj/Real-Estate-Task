@@ -4,6 +4,7 @@ import Navbar from "./Navbar";
 import { BrowserRouter as Router } from "react-router-dom";
 import Ad from "./Ad";
 import Home from "./Home";
+import Footer from "./Footer";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
           <Navbar />
           <Ad />
           <Home />
+          <Footer />
         </div>
       </Router>
     </div>

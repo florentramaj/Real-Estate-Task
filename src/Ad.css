@@ -1,15 +1,22 @@
 .container {
-  border-radius: 15px;
-  width: 1500px;
-  height: 500px;
-  margin: auto;
-  background-image: url("./assets/bluredNeighbourhood.png");
   position: relative;
+  width: 93.2%;
+  height: 500px;
+  background: url("./assets/bluredNeighbourhood.png") center/cover no-repeat;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  overflow: visible;
+  align-self: auto;
+  margin-left: 50px;
 }
 
-h1 {
+#heroH1 {
   font-size: 38px;
-  padding-top: 180px;
   color: aliceblue;
 }
 p {
@@ -17,54 +24,46 @@ p {
   color: aliceblue;
 }
 
-.searchbar {
-  width: 1300px;
-  height: 100px;
+.search-container {
+  width: 100%;
+  max-width: 800px;
   position: absolute;
-  top: 450px;
-  left: 100px;
-  background-color: white;
-  border-radius: 15px;
-  box-shadow: inset;
-  margin-bottom: 10px;
-}
-
-.button {
-  background-color: transparent;
-  margin: 10px;
-}
-
-.search-icon {
-  width: 20px;
-  height: 20px;
-  margin-right: 10px;
-}
-
-.setting-icon {
-  width: 20px;
-  height: 20px;
+  bottom: -35px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  padding: 15px 20px;
+  border-radius: 12px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+  z-index: 2;
   margin: auto;
 }
 
-span {
-  margin-bottom: 10px;
-  font-size: 15px;
+.search-container select,
+.search-container button {
+  border: none;
+  outline: none;
+  padding: 10px 15px;
+  border-radius: 8px;
+  font-size: 14px;
+  background: #f9f9f9;
 }
 
-select {
-  margin-right: 20px;
-  margin-top: 20px;
-  background-color: silver;
-  font-size: 16px;
-  border-radius: 6px;
-  width: 300px;
-  height: 40px;
+.search-container .filter-btn {
+  background: #f2f2f2;
+  cursor: pointer;
 }
 
-.searchButton {
-  background-color: rgb(58, 58, 177);
-  border-color: rgb(58, 58, 177);
-  margin-left: 15px;
-  width: 100px;
-  height: 30px;
+.search-container .search-btn {
+  background: #0055ff;
+  color: white;
+  cursor: pointer;
+}
+
+.search-container .search-btn:hover {
+  background: #0041cc;
 }
