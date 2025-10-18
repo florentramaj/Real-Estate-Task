@@ -1,0 +1,79 @@
+.property-card {
+  width: 306px;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  background: #fff;
+  font-family: "Inter", sans-serif;
+  transition: transform 0.2s ease;
+}
+
+.property-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Image container */
+.image-container {
+  position: relative;
+  height: 160px;
+  overflow: hidden;
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* “For sale” badge */
+.status-badge {
+  width: 137;
+  height: 40;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: #8eda53; /* green */
+  color: white;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 5px 10px;
+  border-radius: 6px;
+}
+
+/* Card content */
+.card-body {
+  padding: 15px;
+}
+
+.title {
+  font-size: 16px;
+  font-weight: 600;
+  color: #222;
+  margin: 0 0 5px;
+}
+
+.address {
+  font-size: 13px;
+  color: #888;
+  margin-bottom: 10px;
+}
+
+.price {
+  font-size: 20px;
+  font-weight: 700;
+  color: #111;
+  margin-bottom: 10px;
+}
+
+/* Details section */
+.details {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  color: #100e2c;
+  margin-top: 5px;
+}
+
+.details i {
+  margin-right: 5px;
+}

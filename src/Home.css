@@ -48,6 +48,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 30px;
 }
 
 .lm-text {
@@ -84,7 +85,7 @@
 
 .comercial-Property {
   width: 100%;
-  height: 667px;
+
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -92,44 +93,99 @@
   margin-top: 20px;
 }
 
-.card {
+.cards {
+  width: 80%;
+  height: 400px;
   display: flex;
-  width: 306px;
-  height: 280px;
-  background: white;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-
-  overflow: hidden;
+  justify-content: space-between;
+  padding: auto;
+  margin-left: 163px;
+  margin-bottom: 30px;
 }
 
-.card-image {
-  width: 100%;
-  height: 280px;
+.featured-property {
+  width: 80%;
+  height: 400px;
+  display: flex;
+  justify-content: space-between;
+  padding: auto;
+  margin-left: 163px;
 }
 
-.props {
+.GetInTouch-container {
   width: 100%;
-  height: 667px;
+  height: 730px;
   display: flex;
-  justify-content: center;
+  justify-self: center;
+  background: linear-gradient(135deg, #4f8194, #32657a);
+  background-repeat: no-repeat;
+}
+
+.contact-container {
+  width: 416px;
+  height: 610px;
+  margin: 80px auto;
+}
+
+.contact-container h2 {
+  font-weight: 700;
+  color: #fff;
+}
+
+.contact-container p {
+  color: #fff;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  background: #100e2c;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  color: #333;
+}
+
+.contact-form textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.contact-form button {
+  background: #0055ff;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  width: 200px;
+}
+
+.contact-form button:hover {
+  background: #0041cc;
+}
+
+.text-container {
+  width: 50%;
+  height: 730px;
+  display: flex;
+  align-items: center;
   flex-wrap: wrap;
-  gap: 24px;
-  margin-top: 0px;
+  justify-content: center;
+  flex-direction: column;
 }
 
-.apartment-props {
-  width: 306px;
-  height: 158px;
-  background: white;
-  border-bottom-left-radius: 12px;
-  border-bottom-right-radius: 12px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  overflow: hidden;
-  margin-top: 3px;
-}
-
-.apartment-rooms {
-  width: 24px;
-  height: 24px;
+.text-h1 {
+  color: #fff;
+  text-align: center;
 }

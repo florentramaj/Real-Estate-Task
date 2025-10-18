@@ -14,6 +14,7 @@ function App() {
           <Navbar />
           <Ad />
           <Home />
+
           <Footer />
         </div>
       </Router>

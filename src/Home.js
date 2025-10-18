@@ -2,16 +2,9 @@ import React from "react";
 import "./Home.css";
 import Mia from "./assets/client.png";
 import LM from "./assets/lm-img.png";
-import Prop1 from "./assets/property1.png";
-import Prop2 from "./assets/property2.png";
-import Prop3 from "./assets/property3.png";
-import Prop4 from "./assets/property4.png";
-import Rooms from "./assets/bed.png";
-import Bathrooms from "./assets/bathroom.png";
-import Area from "./assets/maximize.png";
-import Garages from "./assets/garage.png";
+import Card from "./Card.js";
 
-const Home = () => {
+const Home = (image, properties, name) => {
   return (
     <div>
       <h1 className="subtext"> Discover your featured Property</h1>
@@ -19,6 +12,10 @@ const Home = () => {
         Explore our exclusive listings and find your dream home or apartment
         today
       </p>
+
+      <div className="featured-property">
+        <Card /> <Card /> <Card />
+      </div>
 
       <div className="learn-more">
         <div className="lm-image">
@@ -36,7 +33,6 @@ const Home = () => {
           <button className="lm-btn">Learn More</button>
         </div>
       </div>
-
       <div className="consumer-feedbacks">
         <div className="feedbackText">
           <h1 id="feedbackH1">
@@ -62,80 +58,35 @@ const Home = () => {
           <img className="john" src={Mia} alt="John Doe" />
         </div>
       </div>
-
-      <h1 className="subtext"> Comercial Property</h1>
-      <p className="subtextP">Get your dream Comercial Property.</p>
-
-      <div className="comercial-Property">
-        <div className="card">
-          <img className="card-image" src={Prop1} alt="Property 1" />
+      <div className="GetInTouch-container">
+        <div class="contact-container">
+          <div class="contact-form">
+            <h2>Get in touch</h2>
+            <p>Send us messages from this!</p>
+            <br />
+            <input type="text" placeholder="Your name" required />
+            <input type="email" placeholder="Your email" required />
+            <input type="tel" placeholder="Your phone number" />
+            <textarea placeholder="Your message" required></textarea>
+            <button type="submit">Send</button>
+          </div>
         </div>
-
-        <div className="card">
-          <img className="card-image" src={Prop2} alt="Property 2" />
-        </div>
-
-        <div className="card">
-          <img className="card-image" src={Prop3} alt="Property 3" />
-        </div>
-
-        <div className="card">
-          <img className="card-image" src={Prop4} alt="Property 4" />
+        <div className="text-container">
+          <h1 className="text-h1">
+            Putting a plan to action, <br />
+            to assure your satisfaction!
+          </h1>
+          <p>
+            Discover how easy it is to find your dream home, <br /> Just contact
+            us for an easier experience!
+          </p>
         </div>
       </div>
-      <div className="props">
-        <div className="apartment-props">
-          <h4>Pembroke Pines Office</h4>
-          <h4>$150000</h4>
-          <hr />
-          <img className="apartment-rooms" src={Rooms} alt="Rooms" />
-          <span>2</span>
-          <img className="apartment-rooms" src={Bathrooms} alt="Rooms" />
-          <span>2</span>
-          <img className="apartment-rooms" src={Area} alt="Rooms" />
-          <span>100m2</span>
-          <img className="apartment-rooms" src={Garages} alt="Rooms" />
-          <span>2</span>
-        </div>
-        <div className="apartment-props">
-          <h4>Pembroke Pines Office</h4>
-          <h4>$1500/Month</h4>
-          <hr />
-          <img className="apartment-rooms" src={Rooms} alt="Rooms" />
-          <span>2</span>
-          <img className="apartment-rooms" src={Bathrooms} alt="Rooms" />
-          <span>2</span>
-          <img className="apartment-rooms" src={Area} alt="Rooms" />
-          <span>100m2</span>
-          <img className="apartment-rooms" src={Garages} alt="Rooms" />
-          <span>2</span>
-        </div>
-        <div className="apartment-props">
-          <h4>Pembroke Pines Office</h4>
-          <h4>$150000</h4>
-          <hr />
-          <img className="apartment-rooms" src={Rooms} alt="Rooms" />
-          <span>2</span>
-          <img className="apartment-rooms" src={Bathrooms} alt="Rooms" />
-          <span>2</span>
-          <img className="apartment-rooms" src={Area} alt="Rooms" />
-          <span>100m2</span>
-          <img className="apartment-rooms" src={Garages} alt="Rooms" />
-          <span>2</span>
-        </div>
-        <div className="apartment-props">
-          <h4>Pembroke Pines Office</h4>
-          <h4>$150000</h4>
-          <hr />
-          <img className="apartment-rooms" src={Rooms} alt="Rooms" />
-          <span>2</span>
-          <img className="apartment-rooms" src={Bathrooms} alt="Rooms" />
-          <span>2</span>
-          <img className="apartment-rooms" src={Area} alt="Rooms" />
-          <span>100m2</span>
-          <img className="apartment-rooms" src={Garages} alt="Rooms" />
-          <span>2</span>
-        </div>
+      <h1 className="subtext"> Comercial Property</h1>
+      <p className="subtextP">Get your dream Comercial Property.</p>
+      <div className="comercial-Property"></div>
+      <div className="cards">
+        <Card /> <Card /> <Card /> <Card />
       </div>
     </div>
   );

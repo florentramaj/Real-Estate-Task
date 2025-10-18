@@ -43,11 +43,11 @@ p {
   margin: auto;
 }
 
-.search-container select,
-.search-container button {
+.search-container select {
   border: none;
   outline: none;
   padding: 10px 15px;
+  width: 200px;
   border-radius: 8px;
   font-size: 14px;
   background: #f9f9f9;
@@ -66,4 +66,13 @@ p {
 
 .search-container .search-btn:hover {
   background: #0041cc;
+}
+
+.search-container button {
+  border-radius: 8px;
+  font-size: 14px;
+  background: #f9f9f9;
+  border: none;
+  outline: none;
+  padding: 10px 15px;
 }
