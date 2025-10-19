@@ -1,10 +1,10 @@
 import React from "react";
 import "./Home.css";
-import Navbar from "./Navbar.js";
-import Ad from "./Ad.js";
-import Mia from "./assets/client.png";
-import LM from "./assets/lm-img.png";
-import Card from "./Card.js";
+import Navbar from "./../Navbar/Navbar.js";
+import Ad from "./../Ad/Ad.js";
+import Mia from "../../assets/images/client.png";
+import LM from "./../../assets/images/lm-img.png";
+import Card from "./../Card/Card.js";
 
 const Home = (image, properties, name) => {
   return (

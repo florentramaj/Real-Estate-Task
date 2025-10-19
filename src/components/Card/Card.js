@@ -1,6 +1,6 @@
 import React from "react";
 import "./Card.css";
-import House from "./assets/property1.png";
+import House from "../../assets/images/property1.png";
 
 function Card({ image, name, price, rooms }) {
   return (

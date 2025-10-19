@@ -2,7 +2,8 @@
   position: relative;
   width: 93.2%;
   height: 500px;
-  background: url("./assets/bluredNeighbourhood.png") center/cover no-repeat;
+  background: url("./../../assets/images/bluredNeighbourhood.png") center/cover
+    no-repeat;
   border-radius: 15px;
   display: flex;
   flex-direction: column;

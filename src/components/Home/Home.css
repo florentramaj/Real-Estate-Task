@@ -103,15 +103,24 @@
   margin-bottom: 30px;
 }
 
-.featured-property {
+/* .featured-property {
   width: 80%;
   height: 400px;
   display: flex;
   justify-content: space-between;
   padding: auto;
   margin-left: 163px;
+} */
+.featured-property {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  gap: 24px;
+  margin: 0 72px;
 }
-
+/* .property-card {
+  width: 100rem;
+} */
 .GetInTouch-container {
   width: 100%;
   height: 730px;

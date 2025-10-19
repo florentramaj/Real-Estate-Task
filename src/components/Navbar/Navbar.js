@@ -1,9 +1,9 @@
 import React from "react";
-import Logo from "./assets/logo.png";
+import Logo from "./../../assets/images/logo.png";
 import "./Navbar.css";
 import { Link } from "react-router-dom";
-import AboutUs from "./AboutUs";
-import Home from "./Home";
+import AboutUs from "./../AboutUs/AboutUs";
+import Home from "./../Home/Home";
 
 function Navbar() {
   return (
