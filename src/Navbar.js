@@ -2,6 +2,8 @@ import React from "react";
 import Logo from "./assets/logo.png";
 import "./Navbar.css";
 import { Link } from "react-router-dom";
+import AboutUs from "./AboutUs";
+import Home from "./Home";
 
 function Navbar() {
   return (
@@ -20,7 +22,7 @@ function Navbar() {
           <Link to="/">Property</Link>
         </li>
         <li>
-          <Link to="/">About us</Link>
+          <Link to="/about-us">About us</Link>
         </li>
         <li>
           <Link to="/">Contact us</Link>

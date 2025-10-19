@@ -1,5 +1,7 @@
 import React from "react";
 import "./Home.css";
+import Navbar from "./Navbar.js";
+import Ad from "./Ad.js";
 import Mia from "./assets/client.png";
 import LM from "./assets/lm-img.png";
 import Card from "./Card.js";
@@ -7,6 +9,8 @@ import Card from "./Card.js";
 const Home = (image, properties, name) => {
   return (
     <div>
+      <Navbar />
+      <Ad />
       <h1 className="subtext"> Discover your featured Property</h1>
       <p className="subtextP">
         Explore our exclusive listings and find your dream home or apartment
@@ -26,7 +30,7 @@ const Home = (image, properties, name) => {
             Putting a plan to action, <br />
             to assure your satisfaction!
           </h1>
-          <p>
+          <p className="lm-text">
             Discover how easy it is to find your dream home, <br /> with our
             expert guidance. Learn more today!
           </p>

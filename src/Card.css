@@ -12,7 +12,6 @@
   transform: translateY(-5px);
 }
 
-/* Image container */
 .image-container {
   position: relative;
   height: 160px;
@@ -25,14 +24,13 @@
   object-fit: cover;
 }
 
-/* “For sale” badge */
 .status-badge {
   width: 137;
   height: 40;
   position: absolute;
   top: 10px;
   left: 10px;
-  background: #8eda53; /* green */
+  background: #8eda53;
   color: white;
   font-size: 12px;
   font-weight: 600;
@@ -40,7 +38,6 @@
   border-radius: 6px;
 }
 
-/* Card content */
 .card-body {
   padding: 15px;
 }
@@ -65,7 +62,6 @@
   margin-bottom: 10px;
 }
 
-/* Details section */
 .details {
   display: flex;
   justify-content: space-between;
