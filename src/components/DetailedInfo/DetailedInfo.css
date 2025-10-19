@@ -1,0 +1,7 @@
+.detailedinfo {
+  width: 60vw;
+  margin-top: 6rem;
+}
+.detailedinfo > * {
+  margin-bottom: 6rem;
+}

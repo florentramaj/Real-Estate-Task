@@ -3,7 +3,7 @@
 }
 
 .abtus-img-container {
-  width: 93.2%;
+  width: 100%;
   height: 620px;
   border-top-right-radius: 12px;
   border-top-left-radius: 12px;
@@ -29,7 +29,8 @@
 }
 
 .counter {
-  width: 93.2%;
+  text-align: center;
+  width: 100%;
   height: 240px;
   align-self: center;
   background-color: #fff;
@@ -59,12 +60,18 @@
 }
 
 .sold-number {
+  font-size: 50px;
+  font-weight: 700;
+  color: #100e2c;
   margin-top: 7px;
   margin-bottom: 0px;
 }
 
 .property-name {
+  font-size: 24px;
+  font-weight: 500;
   margin-top: 5px;
+  color: #100e2c;
   margin-bottom: 5px;
 }
 
@@ -90,9 +97,16 @@
   text-align: center;
   margin-top: 45px;
 }
-
 .aua-text {
   color: #100e2c;
+  text-align: start;
+}
+.au-text-part > h1 {
+  font-size: 40px;
+  font-weight: 700;
+}
+.aua-text p {
+  font-size: 16px;
 }
 
 .client-container {
@@ -105,11 +119,15 @@
 .cc-text {
   color: #100e2c;
   margin-bottom: 30px;
+  text-align: center;
 }
 
 .cc-text-h1 {
   color: #100e2c;
   margin-top: 80px;
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
 }
 
 .buy-sell-rent {
@@ -130,13 +148,23 @@
 
 .bsr-text {
   color: #fff;
+  margin-bottom: 3.25rem;
 }
-
+h3.bsr-text {
+  font-weight: 700;
+  font-size: 2.4rem;
+}
+p.bsr-text {
+  font-size: 1.6rem;
+}
 .cc-cards-image {
-  width: 60px;
-  height: 55px;
-  margin-left: 130px;
-  margin-top: 30px;
+  width: 64px;
+  /* height: 55px; */
+  /* margin-left: 130px;
+  margin-top: 30px; */
+  margin-bottom: 3.25rem;
+  fill: white;
+  margin-top: 4.35rem;
 }
 
 .find-btn {
@@ -145,73 +173,87 @@
   cursor: pointer;
   border: none;
   outline: none;
-  width: 105px;
-  height: 30px;
+  width: 20rem;
+  height: 5rem;
   border-radius: 4px;
-  margin-left: 110px;
+  font-weight: 500;
+  font-size: 2rem;
 }
 
 .find-btn:hover {
   background: #0041cc;
 }
-
-.buy {
-  width: 342.67px;
-  height: 300px;
-  background-color: #100e2c;
-  border-radius: 15px;
-  display: flex;
-  flex-flow: column;
+.margin-containment {
+  margin: 0 5% 0 5%;
+  width: 90%;
 }
-
-.sell {
-  width: 342.67px;
-  height: 300px;
-  background-color: #100e2c;
-  border-radius: 15px;
-  display: flex;
-  flex-flow: column;
-}
-
+.buy,
+.sell,
 .rent {
   width: 342.67px;
-  height: 300px;
+  height: 36.1rem;
   background-color: #100e2c;
   border-radius: 15px;
+  text-align: center;
   display: flex;
-  flex-flow: column;
+  flex-direction: column;
+  align-items: center;
 }
 
 .image-section {
-  height: 400px;
+  height: 480px;
   border-radius: 10px;
   position: relative;
+  margin-top: 6rem;
 }
 
 .bg {
-  width: 100%;
+  width: 100vw;
   height: 100%;
   object-fit: cover;
+  /* margin-top: 6rem; */
 }
 
 .text-content {
   color: #fff;
   text-align: left;
   width: 80%;
-  max-width: 600px;
+  /* max-width: 600px; */
   position: absolute;
-  top: 150px;
-  left: 270px;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 18rem;
 }
-
+.realestatepers div:first-child {
+  margin-left: 11rem;
+  margin-right: 13.4rem;
+  width: 36vw;
+}
+.realestatepers h1 {
+  font-weight: 700;
+  font-size: 4rem;
+}
+.realestatepers p {
+  font-size: 1.6rem;
+  color: #000;
+  margin-bottom: 4rem;
+}
+.realestatepers {
+  display: flex;
+}
+.realestatepers img {
+  width: 29vw;
+  border-radius: 1.2rem;
+}
 .text-content h1 {
   font-size: 1.8rem;
   font-weight: 700;
-  margin-bottom: 5px;
+  margin-bottom: 2.4rem;
+  font-size: 5rem;
 }
 
 .text-content p {
-  font-size: 0.9rem;
+  font-size: 1.6rem;
   color: #fff;
 }
 
@@ -299,8 +341,8 @@
   justify-content: space-between;
   margin-bottom: 6rem;
   gap: 20px;
-  margin-left: 72px;
-  margin-right: 72px;
+  /* margin-left: 72px;
+  margin-right: 72px; */
   margin-top: 50px;
   text-align: start;
 }
@@ -319,7 +361,7 @@
 .office p {
   font-weight: 500;
   font-size: 1.6rem;
-  color: #7a7474;
+  /* color: #7a7474; */
 }
 .office p:first-of-type {
   font-weight: 400;

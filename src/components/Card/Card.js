@@ -1,38 +1,59 @@
-import React from "react";
+import react from "react";
 import "./Card.css";
-import House from "../../assets/images/property1.png";
+import House from "./../../assets/images/property1.png";
+import bed from "./../../assets/icons/property-details/double-bed 1.svg";
+import bathroomimg from "./../../assets/icons/property-details/bath-tub 1.svg";
+import maximize from "./../../assets/icons/Icon.svg";
+import garageimg from "./../../assets/icons/garage.svg";
 
-function Card({ image, name, price, rooms }) {
+const Card = ({
+  pourpuse,
+  imagesrc,
+  name,
+  adress,
+  price,
+  bedroom,
+  bathroom,
+  area,
+  garage,
+}) => {
   return (
-    <div class="property-card">
-      <div class="image-container">
-        <img src={House} alt="Division Road house" />
-        <span class="status-badge">For sale</span>
-      </div>
-      <div class="card-body">
-        <h3 class="title">Division Road house</h3>
-        <p class="address">506 Division Road Pembroke Pines, FL 33028</p>
-        <p class="price">$250,000</p>
-        <br />
-        <hr />
-        <div class="details">
+    <div className="property-card">
+      <img src={imagesrc} alt="property being sold" />
+      {/* <span className={pourpuse}>{pourpuse}</span> */}
+      <div className="main-prop-info">
+      <h3 className="title">{name}</h3>
+      <p className="address">{adress}</p>
+      <p className="price">{price}</p></div>
+      <br />
+      <hr />
+      <div class="details">
+        <div>
           <div>
-            <i>🛏</i> 3 Bedrooms
+            <img src={bed} alt="" /> {bedroom}
           </div>
-          <div>
-            <i>🛁</i> 2 Bathrooms
-          </div>
+          <p>Bedrooms</p>
         </div>
-        <div class="details">
+        <div>
           <div>
-            <i>📐</i> 1200 Total area
+            <img src={bathroomimg} alt="" /> {bathroom}
           </div>
+          <p>Bathrooms</p>
+        </div>
+        <div>
           <div>
-            <i>🚗</i> 3 Garages
+            <img src={maximize} alt="" /> {area}
           </div>
+          <p>Total area</p>
+        </div>
+        <div>
+          <div>
+            <img src={garageimg} alt="" /> {garage}
+          </div>
+          <p>Garages</p>
         </div>
       </div>
     </div>
   );
-}
+};
 export default Card;

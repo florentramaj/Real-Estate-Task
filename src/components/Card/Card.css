@@ -1,75 +1,56 @@
-.property-card {
-  width: 306px;
-  border-radius: 15px;
-  overflow: hidden;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  background: #fff;
-  font-family: "Inter", sans-serif;
-  transition: transform 0.2s ease;
-}
-
-.property-card:hover {
-  transform: translateY(-5px);
-}
-
-.image-container {
-  position: relative;
-  height: 160px;
-  overflow: hidden;
-}
-
-.image-container img {
+.property-card > img {
+  height: 280px;
   width: 100%;
-  height: 100%;
   object-fit: cover;
+  border-top-left-radius: 1.2rem;
+  border-top-right-radius: 1.2rem;
 }
-
-.status-badge {
-  width: 137;
-  height: 40;
-  position: absolute;
-  top: 10px;
-  left: 10px;
-  background: #8eda53;
-  color: white;
-  font-size: 12px;
-  font-weight: 600;
-  padding: 5px 10px;
-  border-radius: 6px;
+.property-card p {
+  color: black;
 }
-
-.card-body {
-  padding: 15px;
+.property-card {
+  text-align: start;
+  /* height: 80rem; */
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.07);
+  border-radius: 1.2rem;
 }
-
+.main-prop-info {
+  padding-left: 2.4rem;
+  margin-top: 2.2rem;
+}
 .title {
-  font-size: 16px;
   font-weight: 600;
-  color: #222;
-  margin: 0 0 5px;
+  font-size: 2rem;
+  margin-bottom: 1.6rem;
 }
-
 .address {
-  font-size: 13px;
-  color: #888;
-  margin-bottom: 10px;
+  color: #7a7474;
+  font-size: 1.6rem;
+  margin-bottom: 2rem;
 }
-
 .price {
-  font-size: 20px;
-  font-weight: 700;
-  color: #111;
-  margin-bottom: 10px;
+  font-size: 2.2rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
 }
-
 .details {
   display: flex;
-  justify-content: space-between;
-  font-size: 13px;
-  color: #100e2c;
-  margin-top: 5px;
+  margin: 0 0 2.4rem 2.4rem;
+  padding-top: 1rem;
 }
-
-.details i {
-  margin-right: 5px;
+.details img {
+  width: 24px;
+}
+.details div {
+  display: flex;
+  flex-direction: column;
+  margin-right: 3rem;
+}
+.details div div {
+  display: flex;
+  gap: 0.9rem;
+  flex-direction: row;
+  font-weight: 500;
+  font-size: 1.6rem;
+  color: #100e2c;
 }

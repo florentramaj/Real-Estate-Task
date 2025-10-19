@@ -1,0 +1,75 @@
+.basic-info-nameprice {
+  font-size: 5rem;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1.6rem;
+}
+.basic-info-locationprice {
+  display: flex;
+  justify-content: space-between;
+  font-size: 2rem;
+  color: #000000cc;
+  margin-top: 1.6rem;
+}
+.basicinfoproperty {
+  height: 54.4rem;
+  width: 60vw;
+  border-radius: 2rem;
+}
+.basicinfopropertys,
+.basicinfomap {
+  width: 29vw;
+  height: 26rem;
+  border-radius: 1.2rem;
+  margin-left: 1.6vw;
+  object-fit: cover;
+}
+.basicinfopropertys {
+  filter: brightness(75%);
+  /* position: relative; */
+}
+.basicinfomap {
+  height: 26rem;
+  object-fit: cover;
+  object-position: center;
+  margin-top: 2.4rem;
+}
+.basicinfoimages {
+  margin-top: 4rem;
+  display: flex;
+  justify-content: space-between;
+  /* width: 90%; */
+}
+.basicinfopropstext {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.basicinfopropstext :nth-child(1) {
+  width: 2.2rem;
+}
+.basicinfopropstext :nth-child(2) {
+  color: #fff;
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+.basicinfopropstext :nth-child(3) {
+  font-size: 1.6rem;
+  color: #fff;
+}
+.otherproperiesfull {
+  position: relative;
+}
+.basicinfofullmap {
+  position: relative;
+}
+.basicinfofullmap :nth-child(2) {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}

@@ -1,0 +1,12 @@
+.nearby div {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  font-size: 2.4rem;
+}
+
+.nearby-titles {
+  margin: 2.2rem 0;
+  border-bottom: 0.1rem solid #7a747433;
+  padding-bottom: 0.3rem;
+}

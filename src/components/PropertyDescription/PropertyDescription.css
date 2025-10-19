@@ -1,0 +1,13 @@
+.detailedinfo h2 {
+  color: #100e2c;
+  font-size: 2.8rem;
+  margin-bottom: 2.4rem;
+  font-weight: 600;
+}
+.detailedinfo p {
+  margin-bottom: 1.6rem;
+  font-size: 1.6rem;
+}
+.PropertyDescription p {
+  color: black;
+}

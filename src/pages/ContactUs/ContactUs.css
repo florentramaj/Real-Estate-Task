@@ -1,0 +1,83 @@
+/* @import url("../../assets/images/contactus.png"); */
+.contactuspage {
+  padding: 0 5% 0 5%;
+}
+.contact > * {
+  position: absolute;
+  top: 11rem;
+  left: 11rem;
+}
+.contactuspage main {
+  position: relative;
+  background-image: url("../../assets/images/contactus.png");
+  height: 83rem;
+  width: 100%;
+  border-radius: 2rem;
+}
+.contactinfo {
+  position: absolute;
+  left: 61.6rem;
+}
+.contactinfo h1 {
+  font-weight: 700;
+  font-size: 4rem;
+}
+.contactinfo > p {
+  font-size: 1.6rem;
+  margin-bottom: 0.8rem;
+  color: #000;
+}
+.contactinfo > div {
+  display: flex;
+  margin-top: 2.5rem;
+  align-items: flex-start;
+  gap: 0.8rem;
+}
+.contactinfo > div > p {
+  font-weight: 600;
+  font-size: 2rem;
+  color: #100e2c;
+}
+.contactusaside {
+  text-align: center;
+}
+.contactusaside h2 {
+  margin: 6rem 0 2.4rem 0;
+  font-weight: 700;
+  font-size: 4rem;
+}
+
+.contactusaside > p {
+  font-size: 1.6rem;
+  margin-bottom: 4rem;
+  color: #000;
+}
+.offices {
+  display: flex;
+  justify-content: space-between;
+  text-align: start;
+  margin-bottom: 6rem;
+}
+.office img {
+  height: 36.2rem;
+  width: 29vw;
+  object-fit: cover;
+  border-top-right-radius: 1.2rem;
+  border-top-left-radius: 1.2rem;
+}
+.office h3 {
+  font-weight: 600;
+  font-size: 2.4rem;
+  margin-top: 1.2rem;
+}
+.office p {
+  font-weight: 500;
+  font-size: 1.6rem;
+}
+.office p {
+  color: #000;
+}
+.office p:first-of-type {
+  font-weight: 400;
+  color: #7a7474;
+}

@@ -1,5 +1,7 @@
 import React from "react";
 import "./Ad.css";
+import toggle from "./../../assets/icons/filterbutton.svg";
+import magnifying from "./../../assets/icons/magnifying.svg";
 
 const Ad = () => {
   return (
@@ -16,8 +18,11 @@ const Ad = () => {
         <select>
           <option>Location</option>
         </select>
-        <button className="filter-btn">⚙️</button>
-        <button className="search-btn">🔍 Search</button>
+        <img src={toggle} alt="toggle button" />
+        <button className="search-btn">
+          <img src={magnifying} alt="" />
+          Search
+        </button>
       </div>
     </div>
   );

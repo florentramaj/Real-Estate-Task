@@ -1,35 +1,25 @@
-import React from "react";
-import Logo from "./../../assets/images/logo.png";
+import { Link, NavLink } from "react-router-dom";
 import "./Navbar.css";
-import { Link } from "react-router-dom";
-import AboutUs from "./../AboutUs/AboutUs";
-import Home from "./../Home/Home";
 
-function Navbar() {
+const Navbar = () => {
   return (
-    <nav className="navbar">
-      <div className="logo-container">
-        <Link to="/">
-          <img src={Logo} alt="Logo" className="logo" />
-        </Link>
-      </div>
-
-      <ul className="nav-links">
+    <nav className="navbar gantari">
+      <ul>
         <li>
-          <Link to="/">Home</Link>
+          <NavLink to="/src/pages/Home">Home</NavLink>
         </li>
         <li>
-          <Link to="/">Property</Link>
+          <NavLink to="/src/pages/SingleProduct">Property</NavLink>
         </li>
         <li>
-          <Link to="/about-us">About us</Link>
+          <NavLink to="/src/pages/AboutUs">About us</NavLink>
         </li>
         <li>
-          <Link to="/">Contact us</Link>
+          <NavLink to="/src/pages/ContactUs">Contact us</NavLink>
         </li>
       </ul>
     </nav>
   );
-}
+};
 
 export default Navbar;

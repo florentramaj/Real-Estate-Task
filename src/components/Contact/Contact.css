@@ -1,0 +1,70 @@
+.contactAgent {
+  background-color: #100e2c;
+  border-radius: 1.2rem;
+  padding: 4rem;
+  width: 100%;
+}
+.getintouchdiv {
+  width: 41.6rem;
+  position: absolute;
+  /* bottom: 4rem; */
+}
+.getintouchdiv {
+  color: #fff;
+  font-size: 1.6rem;
+}
+.contactagentdiv {
+  margin-top: 6rem;
+}
+.contactAgent h3 {
+  font-weight: 700;
+  font-size: 2.8rem;
+  color: #fff;
+  margin-bottom: 2.4rem;
+}
+.emilia {
+  font-weight: 500;
+  font-size: 1.6rem;
+  display: flex;
+  color: #fff;
+}
+.emilia img {
+  width: 6rem;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.emilia div :nth-child(2),
+.emilia div :nth-child(3) {
+  color: #ffffffcc;
+  font-weight: 400;
+}
+
+#contactAgentForm input {
+  box-sizing: border-box;
+  width: 100%;
+  height: 5rem;
+  border-radius: 0.6rem;
+  padding: 1.6rem 0 1.6rem 1.6rem;
+  font-weight: 400;
+  font-size: 1.6rem;
+  margin-top: 2rem;
+  border: none;
+  outline: none;
+}
+
+#contactAgentForm input:nth-child(4) {
+  height: 14.8rem;
+  padding: 1.6rem 0 11.9rem 1.6rem;
+}
+
+#contactAgentForm button {
+  background-color: #0057ff;
+  border-radius: 0.6rem;
+  padding: 1.5rem 3.3rem;
+  color: #fff;
+  font-weight: 500;
+  font-size: 2rem;
+  margin-top: 2rem;
+  border: none;
+  outline: none;
+}

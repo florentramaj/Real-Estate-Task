@@ -1,0 +1,21 @@
+.property-details {
+  display: flex;
+  gap: 2.4rem;
+}
+.property-details div {
+  width: 29vw;
+}
+.property-details div div {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  font-size: 2rem;
+  margin-bottom: 0.8rem;
+  border-bottom: 0.1rem solid #7a747433;
+}
+.property-details div div div {
+  display: flex;
+  color: #7a7474;
+  gap: 0.8rem;
+  border: 0;
+}
