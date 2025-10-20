@@ -49,6 +49,7 @@ p {
   outline: none;
   padding: 10px 15px;
   width: 17.6vw;
+  height: 50px;
   border-radius: 8px;
   font-size: 14px;
   background: #f9f9f9;
@@ -63,6 +64,8 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-weight: 500px;
+  font-size: 16px;
 }
 .search-container .search-btn {
   background: #0055ff;
@@ -81,4 +84,8 @@ p {
   border: none;
   outline: none;
   padding: 10px 15px;
+}
+
+.magnifying {
+  margin-right: 20px;
 }

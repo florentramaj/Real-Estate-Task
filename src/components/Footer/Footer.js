@@ -65,10 +65,8 @@ const Footer = () => {
         </div>
       </footer>
       <div className="bottom-footer2">
-        <div class="footer-bottom">
-          <hr class="footer-line" />
-          <p>© Copyright Real Estate 2025. Design by Figma.guru</p>
-        </div>
+        <hr class="footer-line" />
+        <p>© Copyright Real Estate 2025. Design by Figma.guru</p>
       </div>
     </div>
   );

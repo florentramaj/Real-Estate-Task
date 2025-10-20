@@ -20,8 +20,8 @@ const Ad = () => {
         </select>
         <img src={toggle} alt="toggle button" />
         <button className="search-btn">
-          <img src={magnifying} alt="" />
-          Search
+          <img className="magnifying" src={magnifying} alt="" />
+          SEARCH
         </button>
       </div>
     </div>
