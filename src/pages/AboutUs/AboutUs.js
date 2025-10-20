@@ -1,11 +1,13 @@
 import React from "react";
 import "./AboutUs.css";
 import "./../Home/Home.css";
-import AboutUsImg from "./../../assets/images/AboutUsImg.png";
+// import AboutUsImg from "./../../assets/images/AboutUsImg.png";
+import playbutton from "./../../assets/icons/video-play-button.svg";
 import Properties from "../../assets/icons/property-insurance.png";
-import Apartments from "../../assets/icons/apartment.png";
+import Apartments from "../../assets/icons/apartment.svg";
 import Houses from "../../assets/icons/house.svg";
-import Villas from "../../assets/icons/villa.png";
+import HouseIcon from "./../../assets/icons/house-icon.svg";
+import Villas from "../../assets/icons/villa.svg";
 import AuP from "../../assets/images/AboutusParagraph.png";
 import Neighbourhood from "../../assets/images/PropertyBanner.png";
 import Agent1 from "../../assets/images/TerrellNorman1.png";
@@ -13,7 +15,6 @@ import LMAB from "../../assets/images/LM-ab.png";
 import design1 from "../../assets/images/design1.png";
 import design2 from "../../assets/images/design2.png";
 import design3 from "../../assets/images/design3.png";
-import { Link } from "react-router-dom";
 
 function AboutUs() {
   return (
@@ -21,11 +22,16 @@ function AboutUs() {
       <div className="margin-containment">
         <div className="hero-container">
           <div className="hero-image">
-            <img
+            {/* <img
               className="abtus-img-container"
               src={AboutUsImg}
               alt="aboutuspicture"
-            />
+            /> */}
+            <div>
+              <h1>Faucibus mattis pharetra </h1>
+              <p>Watch video</p>
+            </div>
+            <img src={playbutton} alt="video-playing-button" />
           </div>
           <div className="under-part">
             <div className="counter">
@@ -50,7 +56,7 @@ function AboutUs() {
               <div className="properties-sold">
                 <img
                   className="sold-properties"
-                  src={Houses}
+                  src={HouseIcon}
                   alt="Properties Sold"
                 />
                 <h1 className="sold-number">125</h1>

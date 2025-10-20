@@ -14,7 +14,6 @@ import ohioscotchvila from "./../../assets/images/ohioscotchvila.png";
 import Pawnee from "./../../assets/images/pawneeaveapartment.png";
 import oxfordave from "./../../assets/images/oxfordaveapartment.png";
 import Fremont from "./../../assets/images/fremontaveapartment.png";
-import { Link } from "react-router-dom";
 
 const Property = () => {
   return (
