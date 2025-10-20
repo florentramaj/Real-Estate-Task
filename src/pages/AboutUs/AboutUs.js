@@ -10,7 +10,6 @@ import HouseIcon from "./../../assets/icons/house-icon.svg";
 import Villas from "../../assets/icons/villa.svg";
 import AuP from "../../assets/images/AboutusParagraph.png";
 import Neighbourhood from "../../assets/images/PropertyBanner.png";
-import Agent1 from "../../assets/images/TerrellNorman1.png";
 import LMAB from "../../assets/images/LM-ab.png";
 import design1 from "../../assets/images/design1.png";
 import design2 from "../../assets/images/design2.png";
@@ -22,16 +21,16 @@ function AboutUs() {
       <div className="margin-containment">
         <div className="hero-container">
           <div className="hero-image">
-            {/* <img
-              className="abtus-img-container"
-              src={AboutUsImg}
-              alt="aboutuspicture"
-            /> */}
-            <div>
-              <h1>Faucibus mattis pharetra </h1>
+            <div className="image-elements">
+              <h1 id="h1-image-element">Faucibus mattis pharetra </h1>
               <p>Watch video</p>
             </div>
-            <img src={playbutton} alt="video-playing-button" />
+
+            <img
+              id="play-button-image"
+              src={playbutton}
+              alt="video-playing-button"
+            />
           </div>
           <div className="under-part">
             <div className="counter">
@@ -144,26 +143,10 @@ function AboutUs() {
           </p>
         </div>
       </div>
+
+      <div className="agents"></div>
+
       <div className="margin-containment">
-        <div className="agents-container">
-          <div className="text-zone">
-            <h1>Our professional agents</h1>
-            <p>These are some of our Agents</p>
-          </div>
-
-          <div className="agents-card">
-            <div className="agent">
-              <div className="agent-image">
-                <img src={Agent1} />
-              </div>
-              <div className="agent-data">
-                <h3>Terrell Norman</h3>
-                <h5>Real Estate Agent</h5>
-              </div>
-            </div>
-          </div>
-        </div>
-
         <div className="realestatepers">
           <div>
             <h1 className="">

@@ -3,7 +3,7 @@ import "./Footer.css";
 
 const Footer = () => {
   return (
-    <div>
+    <div className="footer-container">
       <footer class="footer">
         <div class="footer-section">
           <h4>Opening hours</h4>
@@ -66,7 +66,7 @@ const Footer = () => {
       </footer>
       <div className="bottom-footer2">
         <hr class="footer-line" />
-        <p>© Copyright Real Estate 2025. Design by Figma.guru</p>
+        <p id="copyright">© Copyright Real Estate 2025. Design by Figma.guru</p>
       </div>
     </div>
   );

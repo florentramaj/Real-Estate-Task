@@ -21,7 +21,7 @@ const Property = () => {
       <Ad />
       <div className="featured-property margin-containment- ">
         <Card
-          //   pourpuse=""
+          pourpuse="s"
           imagesrc={divisionroadhouse}
           name="Division Road house"
           adress="506 Division Road Pembroke Pines, FL 33028"
@@ -32,7 +32,7 @@ const Property = () => {
           garage="3"
         />
         <Card
-          //   pourpuse=""
+          pourpuse="s"
           imagesrc={northroadhouse}
           name="North Road house "
           adress="19 North Road Piscataway, NJ 08854"
@@ -43,7 +43,7 @@ const Property = () => {
           garage="1"
         />
         <Card
-          //   pourpuse=""
+          pourpuse="r"
           imagesrc={bloomfieldhouse}
           name="Bloomfield house"
           adress="29 W. Pawnee St.Bloomfield, NJ 07003"
@@ -54,7 +54,7 @@ const Property = () => {
           garage="2"
         />
         <Card
-          //   pourpuse=""
+          pourpuse="s"
           imagesrc={rockvilleavevilla}
           name="Rockville Ave villa"
           adress="8460 Rockville Ave. Greenville, NC 27834"
@@ -65,7 +65,7 @@ const Property = () => {
           garage="2"
         />
         <Card
-          //   pourpuse=""
+          pourpuse="r"
           imagesrc={scotchplainsvilla}
           name="Scotch Plains villa"
           adress="820 Ohio Road Scotch Plains, NJ 07076"
@@ -76,7 +76,7 @@ const Property = () => {
           garage="2"
         />
         <Card
-          //   pourpuse=""
+          pourpuse="s"
           imagesrc={leescreekhouse}
           name="Lees Creek house"
           adress="7916 Lees Creek St. Dayton, OH 45420"
@@ -87,7 +87,7 @@ const Property = () => {
           garage="1"
         />
         <Card
-          //   pourpuse=""
+          pourpuse="s"
           imagesrc={Condominium}
           name="Rockville Ave condominium"
           adress="8460 Rockville Ave. Greenville, NC 27834"
@@ -99,7 +99,7 @@ const Property = () => {
         />
 
         <Card
-          //   pourpuse=""
+          pourpuse="s"
           imagesrc={ohioscotchvila}
           name="Ohio Scotch villa"
           adress="820 Ohio Road Scotch Plains, NJ 07076"
@@ -110,7 +110,7 @@ const Property = () => {
           garage="3"
         />
         <Card
-          //   pourpuse=""
+          pourpuse="s"
           imagesrc={SulphurVilla}
           name="Sulphur villa"
           adress="9514 Smoky Hollow St. Sulphur, LA 70663"
@@ -121,7 +121,7 @@ const Property = () => {
           garage="1"
         />
         <Card
-          //   pourpuse=""
+          pourpuse="s"
           imagesrc={Pawnee}
           name="Pawne ave apartment"
           adress="29 W. Pawnee St.Bloomfield, NJ 07003"
@@ -132,7 +132,7 @@ const Property = () => {
           garage="0"
         />
         <Card
-          //   pourpuse=""
+          pourpuse="s"
           imagesrc={oxfordave}
           name="Oxford ave apartment"
           adress="3 W. Oxford Ave. Cary, NC 27511"
@@ -144,7 +144,7 @@ const Property = () => {
         />
 
         <Card
-          //   pourpuse=""
+          pourpuse="s"
           imagesrc={Fremont}
           name="Fremint ave apartment"
           adress="60 Fremont Ave. Hamden, CT 06514"

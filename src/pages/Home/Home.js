@@ -28,7 +28,7 @@ const Home = (image, properties, name) => {
         </div>
         <div className="featured-property">
           <Card
-            //   pourpuse=""
+            pourpuse="s"
             imagesrc={divisionroadhouse}
             name="Division Road house"
             adress="506 Division Road Pembroke Pines, FL 33028"
@@ -39,7 +39,7 @@ const Home = (image, properties, name) => {
             garage="3"
           />
           <Card
-            //   pourpuse=""
+            pourpuse="s"
             imagesrc={northroadhouse}
             name="North Road house "
             adress="19 North Road Piscataway, NJ 08854"
@@ -50,7 +50,7 @@ const Home = (image, properties, name) => {
             garage="1"
           />
           <Card
-            //   pourpuse=""
+            pourpuse="r"
             imagesrc={bloomfieldhouse}
             name="Bloomfield house"
             adress="29 W. Pawnee St.Bloomfield, NJ 07003"
@@ -61,7 +61,7 @@ const Home = (image, properties, name) => {
             garage="2"
           />
           <Card
-            //   pourpuse=""
+            pourpuse="s"
             imagesrc={rockvilleavevilla}
             name="Rockville Ave villa"
             adress="8460 Rockville Ave. Greenville, NC 27834"
@@ -72,7 +72,7 @@ const Home = (image, properties, name) => {
             garage="2"
           />
           <Card
-            //   pourpuse=""
+            pourpuse="r"
             imagesrc={scotchplainsvilla}
             name="Scotch Plains villa"
             adress="820 Ohio Road Scotch Plains, NJ 07076"
@@ -83,7 +83,7 @@ const Home = (image, properties, name) => {
             garage="2"
           />
           <Card
-            //   pourpuse=""
+            pourpuse="s"
             imagesrc={leescreekhouse}
             name="Lees Creek house"
             adress="7916 Lees Creek St. Dayton, OH 45420"

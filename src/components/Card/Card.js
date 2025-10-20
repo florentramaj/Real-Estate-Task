@@ -1,6 +1,8 @@
 import react from "react";
 import "./Card.css";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import House from "./../../assets/images/property1.png";
+import SingleProduct from "./../../pages/SingleProduct/SingleProduct";
 import bed from "./../../assets/icons/property-details/double-bed 1.svg";
 import bathroomimg from "./../../assets/icons/property-details/bath-tub 1.svg";
 import maximize from "./../../assets/icons/Icon.svg";
