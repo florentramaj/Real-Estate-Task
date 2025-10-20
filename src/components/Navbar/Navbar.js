@@ -6,20 +6,20 @@ const Navbar = () => {
     <nav className="navbar gantari">
       <ul>
         <li>
-          <NavLink to="/src/pages/Home">Home</NavLink>
+          <NavLink to="/">Home</NavLink>
         </li>
         <li>
-          <NavLink to="/src/pages/Property">Property</NavLink>
+          <NavLink to="/property">Property</NavLink>
         </li>
         <li>
-          <NavLink to="/src/pages/AboutUs">About us</NavLink>
+          <NavLink to="/about">About us</NavLink>
         </li>
         <li>
-          <NavLink to="/src/pages/ContactUs">Contact us</NavLink>
+          <NavLink to="/contact">Contact us</NavLink>
         </li>
       </ul>
     </nav>
   );
 };
-
+// te navbar edhe te app<Route path="/" element={<Home />} />
 export default Navbar;

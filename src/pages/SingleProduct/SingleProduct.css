@@ -1,3 +1,7 @@
 .main {
   display: flex;
 }
+.single-product {
+  margin-top: 100rem;
+  position: relative;
+}

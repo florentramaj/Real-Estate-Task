@@ -8,4 +8,6 @@
   position: absolute;
   top: 2.4rem;
   left: 2.4rem;
+  outline: 0;
+  border: 0;
 }

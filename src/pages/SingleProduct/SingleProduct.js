@@ -5,7 +5,7 @@ import "./SingleProduct.css";
 
 const SingleProduct = () => {
   return (
-    <div className="margin-containment">
+    <div className="margin-containment single-product">
       <BasicPropertyDeatils></BasicPropertyDeatils>
       <div className="main">
         <DetailedInfo></DetailedInfo>

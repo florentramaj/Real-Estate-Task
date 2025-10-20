@@ -4,6 +4,15 @@
   justify-content: space-between;
   margin-top: 1.6rem;
 }
+.forsale- {
+  padding: 1rem 3.2rem;
+  background-color: #8eda53;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 2rem;
+  border-radius: 0.6rem;
+}
+
 .basic-info-locationprice {
   display: flex;
   justify-content: space-between;

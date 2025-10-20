@@ -16,11 +16,11 @@ function App() {
       <Router>
         <Header></Header>
         <Routes>
-          {/* <Route path="/src/pages/SingleProduct" element={<SingleProduct />} /> */}
-          <Route path="/src/pages/ContactUs" element={<ContactUs />} />
-          <Route path="/src/pages/AboutUs" element={<AboutUs />} />
-          <Route path="/src/pages/Home" element={<Home />} />
-          <Route path="/src/pages/Property" element={<Property />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/contact" element={<ContactUs />} />
+          <Route path="/about" element={<AboutUs />} />
+          <Route path="/property" element={<Property />} />
+          <Route path="/single-product" element={<SingleProduct />} />
         </Routes>
       </Router>
       <Footer />
