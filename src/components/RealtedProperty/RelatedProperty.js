@@ -13,7 +13,7 @@ const RelatedProperty = () => {
       </p>
       <div className="deatiledinfocards">
         <Card
-          //   pourpuse=""
+          pourpuse="s"
           imagesrc={piscataway}
           name="Piscataway apartment"
           adress="19 North Road Piscataway, NJ 08854"
@@ -24,7 +24,7 @@ const RelatedProperty = () => {
           garage="0"
         />
         <Card
-          //   pourpuse=""
+          pourpuse="s"
           imagesrc={division}
           name="Division Road  apartment"
           adress="506 Division Road Pembroke Pines, FL 33028"
@@ -35,7 +35,7 @@ const RelatedProperty = () => {
           garage="0"
         />
         <Card
-          //   pourpuse=""
+          pourpuse="s"
           imagesrc={tanglewood}
           name="Tanglewood  apartment"
           adress="8911 Tanglewood Ave. Capitol Heights, MD 20743"

@@ -13,7 +13,7 @@ const OtherTools = () => {
         <h3>Related property</h3>
         <p>Leo morbi faucibus mattis pharetra tellus velit </p>
         <Card
-          //   pourpuse=""
+          pourpuse="s"
           imagesrc={luxurylasvegas}
           name="Luxury house in Las Vegas"
           adress="7914 Lees Creek St. Dayton, LV 45420"

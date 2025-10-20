@@ -19,7 +19,7 @@ const Property = () => {
   return (
     <div>
       <Ad />
-      <div className="featured-property margin-containment- ">
+      <div className="featured-property margin-containment-">
         <Card
           pourpuse="s"
           imagesrc={divisionroadhouse}
