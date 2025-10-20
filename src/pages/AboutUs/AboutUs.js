@@ -21,10 +21,14 @@ function AboutUs() {
       <div className="margin-containment">
         <div className="hero-container">
           <div className="hero-image">
-            <div className="image-elements">
-              <h1 id="h1-image-element">Faucibus mattis pharetra </h1>
-              <p>Watch video</p>
-            </div>
+            <h1 id="h1-image-element">Faucibus mattis pharetra </h1>
+            <p id="p-image-element">Watch video</p>
+            <p id="p-image-elements">
+              Lorem ipsum dolor sit amet consectetur. Morbi quis habitant donec
+              aliquet
+              <br /> interdum bibendum tellus sed ultriciespharetra in lorem
+              eget
+            </p>
 
             <img
               id="play-button-image"
