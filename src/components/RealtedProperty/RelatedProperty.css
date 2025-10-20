@@ -1,0 +1,12 @@
+.deatiledinfocards {
+  display: flex;
+  gap: 3.5rem;
+}
+.detailedinforelatedproperty > h2 {
+  margin-bottom: 2.4rem;
+  font-size: 4rem;
+}
+.detailedinforelatedproperty p {
+  margin-bottom: 4rem;
+  color: #000;
+}

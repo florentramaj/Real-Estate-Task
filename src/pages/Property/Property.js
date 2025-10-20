@@ -1,7 +1,7 @@
 "./Property.css";
 
 const Property = () => {
-  return <p>Property</p>;
+  return <p>selaefio hpi</p>;
 };
 
 export default Property;

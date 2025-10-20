@@ -8,6 +8,7 @@ import ContactUs from "./pages/ContactUs/ContactUs";
 import AboutUs from "./pages/AboutUs/AboutUs";
 import Home from "./pages/Home/Home";
 import Footer from "./components/Footer/Footer";
+import Property from "./pages/Property/Property";
 
 function App() {
   return (
@@ -19,7 +20,7 @@ function App() {
           <Route path="/src/pages/ContactUs" element={<ContactUs />} />
           <Route path="/src/pages/AboutUs" element={<AboutUs />} />
           <Route path="/src/pages/Home" element={<Home />} />
-          <Route path="/src/pages/SingleProduct" element={<SingleProduct />} />
+          <Route path="/src/pages/Property" element={<Property />} />
         </Routes>
       </Router>
     </div>

@@ -1,10 +1,10 @@
 import "./DetailedInfo.css";
-
 import PropertyDescription from "../PropertyDescription/PropertyDescription";
 import PropertyDetails from "../PropertyDetails/PropertyDetails";
 import NearbyProperty from "../NearbyProperty/NearbyProperty";
 import ApartmentPlan from "../ApartmentPlan/ApartmentPlan";
 import Video from "../Video/Video";
+import RelatedProperty from "../RealtedProperty/RelatedProperty.js";
 
 const DetailedInfo = () => {
   return (
@@ -14,6 +14,7 @@ const DetailedInfo = () => {
       <NearbyProperty></NearbyProperty>
       <ApartmentPlan></ApartmentPlan>
       <Video></Video>
+      <RelatedProperty></RelatedProperty>
     </div>
   );
 };

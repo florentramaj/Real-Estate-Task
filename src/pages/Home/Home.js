@@ -11,6 +11,8 @@ import northroadhouse from "./../../assets/images/properties-home/North Road hou
 import rockvilleavevilla from "./../../assets/images/properties-home/Rockville Ave villa.png";
 import scotchplainsvilla from "./../../assets/images/properties-home/Scotch Plains villa.png";
 import GetInTouch from "../../components/GetInTouch/GetInTouch.js";
+import WhatCity from "../../components/WhatCity/WhatCity.js";
+import CardHome from "../../components/CardHome/CardHome.js";
 
 const Home = (image, properties, name) => {
   return (
@@ -143,7 +145,7 @@ const Home = (image, properties, name) => {
         </div>
         <div className="comercial-Property"></div>
         <div className="cards">
-          <Card
+          <CardHome
             //   pourpuse=""
             imagesrc={northroadhouse}
             name="North Road house "
@@ -154,7 +156,7 @@ const Home = (image, properties, name) => {
             area="1200"
             garage="1"
           />
-          <Card
+          <CardHome
             //   pourpuse=""
             imagesrc={northroadhouse}
             name="North Road house "
@@ -165,7 +167,7 @@ const Home = (image, properties, name) => {
             area="1200"
             garage="1"
           />
-          <Card
+          <CardHome
             //   pourpuse=""
             imagesrc={northroadhouse}
             name="North Road house "
@@ -176,7 +178,7 @@ const Home = (image, properties, name) => {
             area="1200"
             garage="1"
           />
-          <Card
+          <CardHome
             //   pourpuse=""
             imagesrc={northroadhouse}
             name="North Road house "
@@ -204,6 +206,9 @@ const Home = (image, properties, name) => {
             us for an easier experience!
           </p>
         </div>
+      </div>
+      <div className="margin-containment">
+        <WhatCity></WhatCity>
       </div>
     </div>
   );

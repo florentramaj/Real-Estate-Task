@@ -1,0 +1,56 @@
+.property-card > img {
+  height: 280px;
+  width: 100%;
+  object-fit: cover;
+  border-top-left-radius: 1.2rem;
+  border-top-right-radius: 1.2rem;
+}
+.property-card p {
+  color: black;
+}
+.property-card {
+  text-align: start;
+  /* height: 80rem; */
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.07);
+  border-radius: 1.2rem;
+}
+.main-prop-info {
+  padding-left: 2.4rem;
+  margin-top: 2.2rem;
+}
+.title {
+  font-weight: 600;
+  font-size: 2rem;
+  margin-bottom: 1.6rem;
+}
+.address {
+  color: #7a7474;
+  font-size: 1.6rem;
+  margin-bottom: 2rem;
+}
+.price {
+  font-size: 2.2rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+.details {
+  display: flex;
+  margin: 0 0 2.4rem 2.4rem;
+  padding-top: 1rem;
+}
+.details img {
+  width: 24px;
+}
+.details div {
+  display: flex;
+  flex-direction: column;
+  margin-right: 3rem;
+}
+.details div div {
+  display: flex;
+  gap: 0.9rem;
+  flex-direction: row;
+  font-weight: 500;
+  font-size: 1.6rem;
+  color: #100e2c;
+}
