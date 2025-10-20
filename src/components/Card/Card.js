@@ -5,6 +5,8 @@ import bed from "./../../assets/icons/property-details/double-bed 1.svg";
 import bathroomimg from "./../../assets/icons/property-details/bath-tub 1.svg";
 import maximize from "./../../assets/icons/Icon.svg";
 import garageimg from "./../../assets/icons/garage.svg";
+import ForSaleTag from "../ForSaleTag/ForSaleTag";
+import ForRentTag from "../ForRentTag/ForRentTag";
 
 const Card = ({
   pourpuse,
@@ -20,11 +22,20 @@ const Card = ({
   return (
     <div className="property-card">
       <img src={imagesrc} alt="property being sold" />
+      {pourpuse === "rent" || pourpuse === "r" ? (
+        <ForRentTag />
+      ) : pourpuse === "sale" || pourpuse === "s" ? (
+        <ForSaleTag />
+      ) : (
+        <p>Invalid pourpuse</p>
+      )}
+
       {/* <span className={pourpuse}>{pourpuse}</span> */}
       <div className="main-prop-info">
-      <h3 className="title">{name}</h3>
-      <p className="address">{adress}</p>
-      <p className="price">{price}</p></div>
+        <h3 className="title">{name}</h3>
+        <p className="address">{adress}</p>
+        <p className="price">{price}</p>
+      </div>
       <br />
       <hr />
       <div class="details">
